@@ -1,6 +1,6 @@
 {
   "name": "pg",
-  "version": "7.11.0",
+  "version": "7.11.1",
   "description": "PostgreSQL client - pure javascript & libpq with the same API",
   "keywords": [
     "database",
@@ -26,6 +26,9 @@
     "pg-types": "~2.0.0",
     "pgpass": "1.x",
     "semver": "4.3.2"
+  },
+  "publishConfig": {
+    "registry": "http://admin.branch.io:8081/nexus/content/repositories/npm-internal/"
   },
   "devDependencies": {
     "async": "0.9.0",
